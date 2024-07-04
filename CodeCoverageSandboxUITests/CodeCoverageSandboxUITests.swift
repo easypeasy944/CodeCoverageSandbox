@@ -5,37 +5,47 @@
 //  Created by Aynur Galiev on 01.05.2024.
 //
 
+import InstrProfiling
 import XCTest
 
 final class CodeCoverageSandboxUITests: XCTestCase {
-
-    override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
-
-        // In UI tests it is usually best to stop immediately when a failure occurs.
-        continueAfterFailure = false
-
-        // In UI tests it’s important to set the initial state - such as interface orientation - required for your tests before they run. The setUp method is a good place to do this.
+//
+    override func setUp() {
+//        __llvm_profile_initialize_file()
+//        __llvm_profile_set_filename("test")
+        super.setUp()
+        print(name)
+        
+//        print(String(cString: __llvm_profile_get_filename()))
     }
-
-    override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+//    
+    override func tearDown() {
+//        let filename = __llvm_profile_get_filename()
+//        print(String(cString: filename!))
+//        __llvm_profile_write_file()
+        super.tearDown()
     }
-
-    func testExample() throws {
-        // UI tests must launch the application that they test.
+    
+    func testExample1() throws {
+        print(String(cString: __llvm_profile_get_filename()))
+//        let filename = __llvm_profile_get_filename()
+//        print(String(cString: filename!))
+        
+//        __llvm_profile_set_fil/*ename("/Users/aynurgaliev/Desktop/CodeCoverageSandbox/DerivedData/CodeCoverageSandbox/Build/ProfileData/ED847150-A54A-4392-9B9A-9C99F42AFF56/testExample1")*/
+        
         let app = XCUIApplication()
+        app.launchEnvironment = ["value": "1", "name": name]
         app.launch()
-
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+//        __llvm_profile_write_file()
     }
-
-    func testLaunchPerformance() throws {
-        if #available(macOS 10.15, iOS 13.0, tvOS 13.0, watchOS 7.0, *) {
-            // This measures how long it takes to launch your application.
-            measure(metrics: [XCTApplicationLaunchMetric()]) {
-                XCUIApplication().launch()
-            }
-        }
+    
+    func testExample2() throws {
+        print(String(cString: __llvm_profile_get_filename()))
+//        let filename = __llvm_profile_get_filename()
+//        print(String(cString: filename!))
+        
+        let app = XCUIApplication()
+        app.launchEnvironment = ["value": "2", "name": name]
+        app.launch()
     }
 }
