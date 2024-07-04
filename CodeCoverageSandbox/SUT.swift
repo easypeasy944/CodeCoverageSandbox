@@ -9,16 +9,13 @@ import InstrProfiling
 import Foundation
 
 func format(name: String) {
-    switch name {
-    case "1":
+    if name == "1" {
         format1()
-    case "2":
+    } else if name == "2" {
         format2()
-    default:
+    } else {
         fatalError()
     }
-    
-    __llvm_profile_write_file()
 }
 
 func format1() {
