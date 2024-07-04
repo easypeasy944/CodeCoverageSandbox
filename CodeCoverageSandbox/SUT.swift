@@ -10,18 +10,18 @@ import Foundation
 
 func format(name: String) {
     if name == "1" {
-        format1()
+        fuckingFormat1()
     } else if name == "2" {
-        format2()
+        fuckingFormat2()
     } else {
         fatalError()
     }
 }
 
-func format1() {
+func fuckingFormat1() {
     print("1")
 }
 
-func format2() {
+func fuckingFormat2() {
     print("2")
 }
