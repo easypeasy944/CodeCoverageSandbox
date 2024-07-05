@@ -17,6 +17,7 @@
 		A487FCA12BE2727400AF3B47 /* CodeCoverageSandboxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A487FCA02BE2727400AF3B47 /* CodeCoverageSandboxUITests.swift */; };
 		A487FCA32BE2727400AF3B47 /* CodeCoverageSandboxUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A487FCA22BE2727400AF3B47 /* CodeCoverageSandboxUITestsLaunchTests.swift */; };
 		A487FCB02BE2729A00AF3B47 /* SUT.swift in Sources */ = {isa = PBXBuildFile; fileRef = A487FCAF2BE2729A00AF3B47 /* SUT.swift */; };
+		A4FF62472C3822AB00C51BFE /* SomeAddedFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FF62462C3822AB00C51BFE /* SomeAddedFile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		A487FCAF2BE2729A00AF3B47 /* SUT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SUT.swift; sourceTree = "<group>"; };
 		A4BA70912C29CFF400ABF6CC /* InstrProfiling.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InstrProfiling.h; sourceTree = "<group>"; };
 		A4BA70922C29D01300ABF6CC /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
+		A4FF62462C3822AB00C51BFE /* SomeAddedFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SomeAddedFile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 				A487FCAF2BE2729A00AF3B47 /* SUT.swift */,
 				A4BA70912C29CFF400ABF6CC /* InstrProfiling.h */,
 				A4BA70922C29D01300ABF6CC /* module.modulemap */,
+				A4FF62462C3822AB00C51BFE /* SomeAddedFile.swift */,
 			);
 			path = CodeCoverageSandbox;
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4FF62472C3822AB00C51BFE /* SomeAddedFile.swift in Sources */,
 				A487FCB02BE2729A00AF3B47 /* SUT.swift in Sources */,
 				A487FC842BE2726700AF3B47 /* ViewController.swift in Sources */,
 				A487FC802BE2726700AF3B47 /* AppDelegate.swift in Sources */,
