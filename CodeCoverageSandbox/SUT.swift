@@ -17,8 +17,6 @@ func format(name: String) {
     default:
         fatalError()
     }
-    
-    __llvm_profile_write_file()
 }
 
 func format1() {

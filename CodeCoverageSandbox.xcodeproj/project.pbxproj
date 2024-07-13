@@ -15,7 +15,6 @@
 		A487FC8C2BE2727400AF3B47 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = A487FC8B2BE2727400AF3B47 /* Base */; };
 		A487FC972BE2727400AF3B47 /* CodeCoverageSandboxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A487FC962BE2727400AF3B47 /* CodeCoverageSandboxTests.swift */; };
 		A487FCA12BE2727400AF3B47 /* CodeCoverageSandboxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A487FCA02BE2727400AF3B47 /* CodeCoverageSandboxUITests.swift */; };
-		A487FCA32BE2727400AF3B47 /* CodeCoverageSandboxUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A487FCA22BE2727400AF3B47 /* CodeCoverageSandboxUITestsLaunchTests.swift */; };
 		A487FCB02BE2729A00AF3B47 /* SUT.swift in Sources */ = {isa = PBXBuildFile; fileRef = A487FCAF2BE2729A00AF3B47 /* SUT.swift */; };
 /* End PBXBuildFile section */
 
@@ -49,7 +48,6 @@
 		A487FC962BE2727400AF3B47 /* CodeCoverageSandboxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeCoverageSandboxTests.swift; sourceTree = "<group>"; };
 		A487FC9C2BE2727400AF3B47 /* CodeCoverageSandboxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodeCoverageSandboxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A487FCA02BE2727400AF3B47 /* CodeCoverageSandboxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeCoverageSandboxUITests.swift; sourceTree = "<group>"; };
-		A487FCA22BE2727400AF3B47 /* CodeCoverageSandboxUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeCoverageSandboxUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		A487FCAF2BE2729A00AF3B47 /* SUT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SUT.swift; sourceTree = "<group>"; };
 		A4BA70912C29CFF400ABF6CC /* InstrProfiling.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InstrProfiling.h; sourceTree = "<group>"; };
 		A4BA70922C29D01300ABF6CC /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
@@ -129,7 +127,6 @@
 			isa = PBXGroup;
 			children = (
 				A487FCA02BE2727400AF3B47 /* CodeCoverageSandboxUITests.swift */,
-				A487FCA22BE2727400AF3B47 /* CodeCoverageSandboxUITestsLaunchTests.swift */,
 			);
 			path = CodeCoverageSandboxUITests;
 			sourceTree = "<group>";
@@ -285,7 +282,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A487FCA12BE2727400AF3B47 /* CodeCoverageSandboxUITests.swift in Sources */,
-				A487FCA32BE2727400AF3B47 /* CodeCoverageSandboxUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
